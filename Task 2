@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Job Application</title>
+</head>
+<body>
+  <h1>Online Job Application</h1>
+  <form>
+    <h3>Personal Information</h3>
+    Name: <input type="text" name="name"><br><br>
+    Email: <input type="email" name="email"><br><br>
+    Phone: <input type="text" name="phone"><br><br>
+    Date of Birth: <input type="date" name="dob"><br><br>
+
+    <h3>Education</h3>
+    Degree: <input type="text" name="degree"><br><br>
+    Year: <input type="text" name="year"><br><br>
+    Percentage: <input type="text" name="percentage"><br><br>
+
+  
+    <h3>Skills</h3>
+    <input type="checkbox" name="skill" value="HTML"> HTML 
+    Level: <input type="range" name="html_level"><br><br>
+
+    <input type="checkbox" name="skill" value="CSS"> CSS 
+    Level: <input type="range" name="css_level"><br><br>
+
+    <input type="checkbox" name="skill" value="JavaScript"> JavaScript 
+    Level: <input type="range" name="js_level"><br><br>
+
+    <input type="checkbox" name="skill" value="Python"> Python 
+    Level: <input type="range" name="py_level"><br><br>
+
+    <h3>Upload Resume</h3>
+    <input type="file" name="resume"><br><br>
+    <input type="checkbox" name="agree"> I agree<br><br>
+    <input type="submit" value="Submit">
+
+  </form>
+</body>
+</html>
